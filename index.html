@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Undangan Pernikahan Gibran & Tiara — 10 Januari 2030">
+  <title>Gibran & Tiara — The Wedding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- COVER -->
+  <section id="cover" class="cover">
+    <div class="cover-pattern"></div>
+    <div class="cover-content">
+      <p class="eyebrow">Bismillahirrahmanirrahim</p>
+      <p class="small-label">The Wedding of</p>
+      <h1>Gibran <span>&amp;</span> Tiara</h1>
+      <div class="ornament">✦</div>
+      <p class="cover-date">10 · 01 · 2030</p>
+      <p class="guest-label">Kepada Yth.<br><strong>Bapak/Ibu/Saudara/i</strong></p>
+      <button id="openInvitation" class="gold-button">Buka Undangan <span>↗</span></button>
+      <p class="hint">Mohon maaf apabila terdapat kesalahan penulisan nama/gelar.</p>
+    </div>
+  </section>
+
+  <!-- MAIN -->
+  <main id="mainContent" class="main-content" aria-hidden="true">
+
+    <section class="hero section">
+      <div class="hero-image image-one"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">A sacred beginning</p>
+        <h2>Gibran <span>&amp;</span> Tiara</h2>
+        <p>Dengan memohon rahmat dan ridha Allah SWT, kami mengundang Anda untuk menjadi bagian dari hari bahagia kami.</p>
+        <div class="gold-line"></div>
+        <p class="date-large">10 Januari 2030</p>
+      </div>
+    </section>
+
+    <section class="section intro">
+      <p class="arabic">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً</p>
+      <p class="translation">“Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan hidup dari jenismu sendiri, supaya kamu merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan sayang.”</p>
+      <p class="source">QS. Ar-Rum: 21</p>
+    </section>
+
+    <section class="section couple">
+      <div class="section-heading">
+        <span>01</span>
+        <h3>Mempelai</h3>
+      </div>
+      <div class="couple-grid">
+        <article class="person">
+          <div class="portrait portrait-groom"></div>
+          <p class="role">The Groom</p>
+          <h4>Gibran</h4>
+          <p>Putra dari keluarga tercinta</p>
+        </article>
+        <div class="ampersand">&amp;</div>
+        <article class="person">
+          <div class="portrait portrait-bride"></div>
+          <p class="role">The Bride</p>
+          <h4>Tiara</h4>
+          <p>Putri dari keluarga tercinta</p>
+        </article>
+      </div>
+      <p class="note">“Semoga langkah kecil ini menjadi awal dari perjalanan panjang yang penuh keberkahan.”</p>
+    </section>
+
+    <section class="section event">
+      <div class="section-heading">
+        <span>02</span>
+        <h3>Rangkaian Acara</h3>
+      </div>
+      <div class="event-card">
+        <p class="event-label">WEDDING DAY</p>
+        <h4>Sabtu, 10 Januari 2030</h4>
+        <div class="event-row">
+          <div><strong>09.00</strong><span>—</span><strong>17.00 WIB</strong></div>
+          <p>Stadion Tangerang</p>
+          <button class="text-button" onclick="openMaps()">Buka Lokasi ↗</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section countdown-section">
+      <p class="eyebrow">Counting every moment</p>
+      <h3>Menuju Hari Bahagia</h3>
+      <div id="countdown" class="countdown">
+        <div><strong id="days">0</strong><span>Hari</span></div>
+        <div><strong id="hours">0</strong><span>Jam</span></div>
+        <div><strong id="minutes">0</strong><span>Menit</span></div>
+        <div><strong id="seconds">0</strong><span>Detik</span></div>
+      </div>
+    </section>
+
+    <section class="section gallery">
+      <div class="section-heading">
+        <span>03</span>
+        <h3>Our Moments</h3>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item wide image-two"></div>
+        <div class="gallery-item image-three"></div>
+        <div class="gallery-item image-four"></div>
+        <div class="gallery-item wide image-five"></div>
+      </div>
+      <p class="gallery-note">Ruang ini dapat diisi dengan foto-foto pilihan Gibran &amp; Tiara. Seluruh gambar konsep menggunakan suasana tanpa menampilkan wajah pasangan.</p>
+    </section>
+
+    <section class="section quote-section">
+      <div class="quote-mark">“</div>
+      <blockquote>“Pernikahan bukan tentang menemukan seseorang yang sempurna, melainkan tentang berjalan bersama menuju kebaikan.”</blockquote>
+      <p>Semoga cinta kami selalu tumbuh dalam doa, sabar, dan syukur.</p>
+    </section>
+
+    <section class="section rsvp">
+      <div class="section-heading">
+        <span>04</span>
+        <h3>RSVP &amp; Ucapan</h3>
+      </div>
+      <p class="section-lead">Kehadiran dan doa baik Anda adalah hadiah yang sangat berarti bagi kami.</p>
+
+      <form id="rsvpForm" class="rsvp-form">
+        <label>Nama
+          <input id="guestName" type="text" placeholder="Nama Anda" required>
+        </label>
+        <label>Kehadiran
+          <select id="attendance" required>
+            <option value="">Pilih konfirmasi</option>
+            <option value="Hadir">InsyaAllah hadir</option>
+            <option value="Tidak hadir">Berhalangan hadir</option>
+          </select>
+        </label>
+        <label>Ucapan &amp; doa
+          <textarea id="message" rows="4" placeholder="Tuliskan ucapan terbaik Anda..." required></textarea>
+        </label>
+        <button class="gold-button" type="submit">Kirim Ucapan</button>
+      </form>
+
+      <div id="successMessage" class="success-message" hidden>Terima kasih atas doa dan konfirmasinya. 🤍</div>
+      <div id="guestMessages" class="guest-messages"></div>
+    </section>
+
+    <section class="section closing">
+      <p class="eyebrow">With love &amp; gratitude</p>
+      <h3>Gibran <span>&amp;</span> Tiara</h3>
+      <p>Merupakan suatu kehormatan bagi kami apabila Anda berkenan hadir dan memberikan doa restu.</p>
+      <div class="ornament">✦</div>
+      <p class="arabic-small">بارك الله لكما وبارك عليكما وجمع بينكما في خير</p>
+      <p class="footer-date">10 · 01 · 2030</p>
+    </section>
+  </main>
+
+  <button id="musicButton" class="music-button" aria-label="Musik">♪</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
